@@ -18,6 +18,6 @@ jobs:
           issue: ${{ github.event.issue.number }}
           label: |
             |
-            needs: label
+            needs: reply
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
